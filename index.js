@@ -38,10 +38,10 @@ var smtpTransport = nodemailer.createTransport({
      auth: {
       type: 'OAuth2',
       user: 'hodermail@gmail.com',
-      clientId: 'XXXXXXXXXXX',
-      clientSecret: 'XXXXXXXXXXX',
-      refreshToken: 'XXXXXXXXXX',
-      accessToken: 'XXXXXXXXXX',
+      clientId: '452423514168-u2c2r0i2h9hrttvagdrv2qgh1u1hitv1.apps.googleusercontent.com',
+      clientSecret: 'SRs3z8CJDkKxQ6RdrUgc0Kuu',
+      refreshToken: '1/nsZ7X5jwoZJ4O8Zs9LE5IGGtq9PqRmvn4yBGptjjkoY',
+      accessToken: 'Xxxxxxxx',
 	  expires: 1484314697598
 },
    tls: {
