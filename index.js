@@ -7,7 +7,7 @@ const OAuth2 = google.auth.OAuth2;
 
 const app = express();
 
-const port = 8065;
+const port = process.env.PORT;
 
 
 
@@ -18,7 +18,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cors());
 
 app.listen(port, () => {
-  console.log('We are live on port 4444');
+  console.log("We are live on port %d", port);
 });
 
 
